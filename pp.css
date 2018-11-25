@@ -182,9 +182,16 @@ button{
     .footer-text{
         font-size: 2rem;
     }
-    #projects-container{
+    .projects-container{
         width: 100%;
     }
+    .projectCard{
+        width: 100%;
+    }
+    .projectCard > .card{
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 1024px){
