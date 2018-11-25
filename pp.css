@@ -175,14 +175,12 @@ button{
     
 }
 @media only screen and (max-width: 720px){
-    .card-header-title{
-        margin-left: 20px;
-    }
     .card-header{
-        margin-right: 20px; 
+        margin-left: 40px;
+        margin-right: 40px; 
     }
-    .footer{
-        height: 150px;
+    .footer-text{
+        font-size: 2rem;
     }
 }
 
