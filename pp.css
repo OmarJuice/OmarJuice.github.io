@@ -1,0 +1,185 @@
+@font-face
+{
+font-family: Saiyansans;
+src: url('saiyan_sans/Saiyan-Sans.ttf');
+}
+#title{
+    font-family: 'Saiyansans','orbitron', sans-serif;
+    font-size: 4rem;
+    color:orange;
+}
+
+#dball{
+    height: 20%;
+    width: 20%;
+    transition: all .5s;
+    transition: rotate 0s;
+}
+#brand{
+    text-shadow: 1px 1px gray;
+    color: orange;
+    font-size: 4rem;
+    font-weight: 700;
+    position: relative;
+    top: -25px;
+}
+#nav{
+    height: 5% 
+}
+
+.navicon{
+    /* color: #006600; */
+    margin-bottom: 5px;
+}
+.linkname{
+    font-family: 'Aldrich', sans-serif;
+}
+.link{
+    display: flex;
+    align-items: center;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+strong{
+    font-weight: 700;
+}
+#profilebuttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem
+}
+#aboutCards{
+    margin-top: 4rem;
+}
+.card-heading{
+    font-family: 'Aldrich', sans-serif;
+    margin-top: 1rem;
+}
+.has-same-height .card {
+  height: 320px;
+  overflow: hidden;
+}
+#mac{
+    height: 300px;
+    width: auto;
+}
+.image-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-content .progress {
+  height: 4px !important;
+}
+.progress-label{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+.skills-content{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.aldrich{
+    font-family: 'Aldrich', sans-serif;
+}
+.orbitron{
+    font-family: 'Orbitron', sans-serif;
+}
+.saiyan{
+        font-family: 'Saiyansans','orbitron', sans-serif;
+}
+#services{
+    margin-top: 5%;
+}
+.vanish{
+    display:none;
+}
+.service-columns{
+    margin-top: 5%;
+}
+.service{
+    border: 10px ridge orange;
+    border-radius: 10px;
+}
+.icon-services{
+    margin-right: 10px;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#jquery{
+    filter: invert(100%);
+}
+.heavy{
+    font-weight: 700;
+}
+.card-footer{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+.card-header-title{
+    font-size: 20px;
+}
+.contact-form{
+    margin-top: 5%;
+}
+.shadow{
+        box-shadow: 1px 0px 2px 2px orange;
+
+}
+.menu-shift{
+    margin-top: -70px;
+}
+
+
+
+#Search::placeholder{
+    color: grey;
+}
+
+#searchbuttonDiv{
+    margin-top: 40px;
+}
+button{
+    transition: all .2s;
+}
+#footer{
+    height: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+    #title{
+        font-size: 10rem;
+    }
+    #brand{
+        position: absolute;
+        top: -25px;
+    }
+    #dball{
+        transition: all linear;
+    }
+    #subtitle{
+        font-size: 2rem
+    }
+    #searchbuttonDiv{
+    margin-top: 0px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1024px){
+    #project-card{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
