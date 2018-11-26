@@ -157,7 +157,7 @@ button{
 }
 
 @media only screen and (min-width: 640px) {
-    #title{
+    #head{
         font-size: 10rem;
     }
     #brand{
