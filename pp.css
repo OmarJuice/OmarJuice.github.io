@@ -5,7 +5,7 @@ src: url('saiyan_sans/Saiyan-Sans.ttf');
 }
 #title{
     font-family: 'Saiyansans','orbitron', sans-serif;
-    font-size: 4rem;
+    font-size: 4.0rem;
     color:orange;
 }
 
@@ -176,7 +176,7 @@ button{
 }
 @media only screen and (max-width: 768px){
     .card-header-title{
-        margin-right: -40px; 
+        margin-right: -10%; 
     }
     .footer-text{
         font-size: 2rem;
@@ -190,7 +190,9 @@ button{
     .projectCard > .card{
         width: 100%;
     }
-
+    #title{
+        font-size: 3.7rem;
+    }
 }
 
 @media only screen and (max-width: 1024px){
