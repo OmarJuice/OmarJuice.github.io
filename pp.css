@@ -3,7 +3,7 @@
 font-family: Saiyansans;
 src: url('saiyan_sans/Saiyan-Sans.ttf');
 }
-#title{
+#head{
     font-family: 'Saiyansans','orbitron', sans-serif;
     font-size: 4.0rem;
     color:orange;
@@ -194,7 +194,7 @@ button{
     .projectCard > .card{
         width: 100%;
     }
-    #title{
+    #head{
         font-size: 3.7rem;
     }
 }
