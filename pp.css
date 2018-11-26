@@ -151,7 +151,7 @@ strong{
 button{
     transition: all .2s;
 }
-#footer{
+#footer.container{
     height: 100px;
 }
 
@@ -175,9 +175,8 @@ button{
     
 }
 @media only screen and (max-width: 768px){
-    .card-header{
-        margin-left: 40px;
-        margin-right: 40px; 
+    .card-header-title{
+        margin-right: -40px; 
     }
     .footer-text{
         font-size: 2rem;
