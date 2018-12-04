@@ -85,6 +85,7 @@ $(document).ready(function () {
             if (count == $('.projectCard').length) {
                 $('#Match').text('No matches found.')
                 $('#Match').fadeIn(500, 'linear');;
+                return;
             }
             else {
                 let quantity = ($('.projectCard').length - count);
