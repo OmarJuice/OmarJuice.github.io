@@ -117,6 +117,9 @@ strong{
 .icon-img{
     filter: invert(80%);
 }
+.icon-img-dark{
+    filter: invert(100%);
+}
 .heavy{
     font-weight: 700;
 }
