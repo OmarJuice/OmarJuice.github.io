@@ -50,7 +50,7 @@ strong{
 #profilebuttons{
     display: flex;
     justify-content: center;
-    margin-bottom: .5rem
+    margin-bottom: .5rem3
 }
 #aboutCards{
     margin-top: 4rem;
@@ -59,8 +59,8 @@ strong{
     font-family: 'Aldrich', sans-serif;
     margin-top: 1rem;
 }
-.has-same-height .card {
-  height: 320px;
+.has-same-height .projectCard .card {
+  height: 295px;
   overflow: hidden;
 }
 #mac{
@@ -114,8 +114,8 @@ strong{
     justify-content: center;
     align-items: center;
 }
-#jquery{
-    filter: invert(100%);
+.icon-img{
+    filter: invert(80%);
 }
 .heavy{
     font-weight: 700;
@@ -141,7 +141,6 @@ strong{
 }
 
 
-
 #Search::placeholder{
     color: grey;
 }
@@ -155,6 +154,46 @@ button{
 #footer.container{
     height: 100px;
 }
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+.tooltip .tooltiptext {
+    visibility: hidden;
+   
+    width: 120px;
+    bottom: -200%;
+    left: 50%; 
+    margin-left: -95px; /* Use half of the width (120/2 = 60), to center the tooltip */
+   
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    font-size: .9rem;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 80%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
 
 @media only screen and (min-width: 640px) {
     #head{
