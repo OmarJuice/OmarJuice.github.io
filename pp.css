@@ -220,6 +220,9 @@ button{
 .card-header-title{
         margin-right: -10%; 
     }
+#herokuICON{
+    margin-left: 10px
+}
 @media only screen and (max-width: 768px){
     .card-header-title{
         margin-right: -10%; 
