@@ -198,6 +198,21 @@ button{
     border-color: transparent transparent black transparent;
   }
 
+.fa-react{
+    color: skyblue
+}
+.fa-code{
+    color: rgb(255, 123, 0)
+}
+.fa-css3{
+    color: steelblue
+}
+.fa-node-js{
+    color: greenyellow
+}
+.fa-js-square{
+    color: yellow
+}
 @media only screen and (min-width: 640px) {
     #head{
         font-size: 10rem;
