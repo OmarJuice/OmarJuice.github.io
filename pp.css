@@ -9,10 +9,10 @@ src: url('saiyan_sans/Saiyan-Sans.ttf');
 .orange{
     color: indigo !important
 }
-._has-background-indigo{
+.has-background-indigo{
     background-color: indigo !important
 }
-._has-background-orange{
+.has-background-orange{
     background-color: orange !important
 }
 #head{
