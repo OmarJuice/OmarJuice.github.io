@@ -4,16 +4,16 @@ font-family: Saiyansans;
 src: url('saiyan_sans/Saiyan-Sans.ttf');
 }
 .indigo{
-    color: indigo !important;
+    color: #4b0082 !important;
 }
 .orange{
-    color: indigo !important
+    color: #FFA500 !important
 }
 .has-background-indigo{
-    background-color: indigo !important
+    background-color: #4b0082 !important
 }
 .has-background-orange{
-    background-color: orange !important
+    background-color: #FFA500 !important
 }
 #head{
     font-family: 'Saiyansans','orbitron', sans-serif;
