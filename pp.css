@@ -7,18 +7,18 @@ src: url('saiyan_sans/Saiyan-Sans.ttf');
     color: #4b0082 !important;
 }
 .orange{
-    color: #FFA500 !important
+    color: #ffae42 !important
 }
 .has-background-indigo{
     background-color: #4b0082 !important
 }
 .has-background-orange{
-    background-color: #FFA500 !important
+    background-color: #FFAe42 !important
 }
 #head{
     font-family: 'Saiyansans','orbitron', sans-serif;
     font-size: 4.0rem;
-    color:orange;
+    color:#ffae42;
 }
 
 
