@@ -1,15 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="849px" height="849px" viewBox="0 0 849 849"
-    preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="849px" height="849px" viewBox="0 0 849 849" preserveAspectRatio="xMidYMid meet" ><rect id="svgEditorBackground" x="0" y="0" width="849" height="849" style="fill:none;stroke:none;"/>
     <defs id="svgEditorDefs">
 
-        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" id="rgrd2-white-red" r="36.6%" gradientTransform="">
-            <stop offset="0" style="stop-color: white; stop-opacity: 1;" />
-            <stop offset="100%" style="stop-color: rgb(255, 174, 66); stop-opacity: 1;" />
-        </radialGradient>
-    </defs>
-    <circle id="e1_circle" cx="424.5" cy="424.5" style="fill:url(#rgrd2-white-red);stroke:darkorange;stroke-width:1px;"
-        r="385.035" />
-    <path d="M426.56586828999997,505.3787425100001L514.7338682899999,551.7317425099995L497.89486829,453.55474251L569.2238682899999,384.02574251L470.64986829,369.70274251L426.56586828999997,280.37874251L382.48186828999997,369.70274251L283.90786828999995,384.02574251L355.23686828999996,453.55474251L338.39786828999996,551.7317425099995L426.56586828999997,505.3787425100001"
-        style="stroke:indigo;stroke-width:5px;stroke-linejoin:round;stroke-linecap:round;fill:indigo;" />
+        
+    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" id="rgrd2-white-red" r="37.3%" gradientTransform="">
+            <stop offset="0" style="stop-color: rgb(255, 255, 128); stop-opacity: 1;"/>
+            <stop offset="100%" style="stop-color: rgb(255, 174, 66); stop-opacity: 1;"/>
+        </radialGradient></defs>
+    <circle id="e1_circle" cx="424.5" cy="424.5" style="stroke: rgb(255, 174, 66); stroke-width: 1px;fill:url(#rgrd2-white-red);" r="385.035"/>
+    <path d="M426.56586828999997,505.3787425100001L514.7338682899999,551.7317425099995L497.89486829,453.55474251L569.2238682899999,384.02574251L470.64986829,369.70274251L426.56586828999997,280.37874251L382.48186828999997,369.70274251L283.90786828999995,384.02574251L355.23686828999996,453.55474251L338.39786828999996,551.7317425099995L426.56586828999997,505.3787425100001" style="stroke:indigo;stroke-width:5px;stroke-linejoin:round;stroke-linecap:round;fill:indigo;"/>
 
 </svg>
