@@ -225,6 +225,9 @@ button{
 .fa-js-square{
     color: yellow
 }
+.card-header-icon .icon.is-large{
+    height: 25px !important;
+}
 @media only screen and (min-width: 640px) {
     #head{
         font-size: 10rem;
