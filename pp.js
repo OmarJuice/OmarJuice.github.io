@@ -79,7 +79,6 @@ $(document).ready(function () {
             }
             else {
                 let quantity = ($('.projectCard').length - count);
-                console.log(quantity);
                 let es = 'es';
                 if (quantity === 1) {
                     es = '';
